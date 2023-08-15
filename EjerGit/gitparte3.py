@@ -1,6 +1,7 @@
 print("1- Ingresar valor 1 \n 2- Ingresar valor 2 \n 3- Mostrar suma \n 4- Mostrar resta \n 5- Mostrar multiplicacion \n 6- Mostrar division \n 7- Salir ")
 
 numero = 10
+senial = 0
 while numero != 7:
     numero = int (input("Ingrese el numero de la operacion que desee realizar: "))
     if numero == 1:
